@@ -29,6 +29,10 @@ tinycap: tinycap.o libtinyalsa.a
 
 tinycap.o: tinycap.c pcm.h mixer.h asoundlib.h optparse.h
 
+tinyloop: tinyloop.o libtinyalsa.a
+
+tinyloop.o: tinyloop.c pcm.h mixer.h asoundlib.h optparse.h
+
 tinymix: tinymix.o libtinyalsa.a
 
 tinymix.o: tinymix.c pcm.h mixer.h asoundlib.h optparse.h
